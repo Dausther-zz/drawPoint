@@ -1,4 +1,4 @@
-package point;
+package studing;
 
 public class Point {
 	public double x, y;
