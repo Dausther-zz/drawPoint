@@ -12,5 +12,14 @@ public class DrawPoint {
 		upperRight.y = 1024.0;
 		middlePoint.x = 640.0;
 		middlePoint.y = 612.0;
+
+		double d = lowerLeft.distance(upperRight);
+		System.out.println("lowerLeft.x = " + lowerLeft.x);
+		System.out.println("lowerLeft.y = " + lowerLeft.y);
+		System.out.println("upperRight.x = " + upperRight.x);
+		System.out.println("upperRight.y = " + upperRight.y);
+		System.out.println("A distãncia entre lowerLeft e upperRight = " + d);
 	}
+
+
 }
